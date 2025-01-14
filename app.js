@@ -22,7 +22,7 @@ async function scrapeData() {
         //Busco el Nombre del objeto (es un H1)
         const h1 = principalTargetDiv.find('h1').text().trim();
         if (h1) {
-            console.log('Nombre del objeto:', h1); // Muestra el texto del h1 en la consola
+            console.log('Nombre del objeto:', h1); 
         } else {
             console.log('No se encontró un elemento h1 dentro del div especificado.');
         }
